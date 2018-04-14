@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 500px;
+	width :90%;
+	margin: auto;
+	padding: auto;
+	display: block;
+	background: gold; /* Old browsers */
+	/*background-image: url('../img/fondoweb.jpg');*/
+	/*background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;*/
+	background-color: cyan;
+}
+#titulo{
+	height:500px;
+}
+h1{
+	height: auto;
+	background-color: rgba(255,255,255,.7);
+	position: relative;
+	margin:0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)}
+}
+nav {
+	background-color: transparent;
+	height: 50px;
+	padding: 20px 0 0;
+	font-size: 20px;
+	font-family: "Courier New";
+	font-style: italic;
+	text-align: center;
+
+
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 50px;
+	color: purple;
+
+}
+section div{
+	height: 500px;
+	display: inline-block;
+	width:49%;
+
+
+}
+
+section div img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	max-height: 300px;
+
+}
+
+footer{
+	width: 75%;
+	margin: auto;
+	float:none;
+	margin-top: 20px;
+	background-color: yellow;
+	height: 20px;
+	text-align: center;
+	color: black;
+
+
+}
+p{
+	text-align: center;
+	font-family: "Courier New";
+}
+
+h1{
+	text-align: center;
+	font-family: "Courier New";
+}
